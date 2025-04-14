@@ -1,4 +1,4 @@
-name: Pytest CI
+name: Publish to TestPyPI
 
 on: [push, pull_request]
 
@@ -36,4 +36,4 @@ jobs:
       uses: codecov/codecov-action@v5
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
-        slug: vinzenzhalhammer/pytest-ci-example
+        slug: vinzenzhalhammer/python-package-example
