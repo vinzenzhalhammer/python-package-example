@@ -20,3 +20,13 @@ def test_sum(a, b, expected):
 def test_subtract(a, b, expected):
     """Test the subtract function."""
     assert util.subtract(a, b) == expected
+
+@pytest.mark.parametrize("a, b, expected", [
+    (2, 1, 2),
+    (0, 3, 0),
+    (1, -1, -1),
+    (2.5, 1.5, 3.75),
+])
+def test_multiply(a, b, expected):
+    """Test the subtract function."""
+    assert util.multiply(a, b) == expected
