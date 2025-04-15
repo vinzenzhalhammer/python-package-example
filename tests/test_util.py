@@ -1,4 +1,4 @@
-from examples import util
+from python_package_example import util
 import pytest
 
 @pytest.mark.parametrize("a, b, expected", [

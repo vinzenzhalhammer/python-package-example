@@ -9,7 +9,7 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/vinzenzhalhammer/python-package-example",
-    packages=find_packages(include=["examples", "examples.*"]),
+    packages=find_packages(include=["python_package_example", "python_package_example.*"]),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
