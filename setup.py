@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="python-package-example",
+    name="python-package-example-vh",
     version="0.0.1",
     author="Vinzenz Halhammer",
     author_email="info@vinzenzhalhammer.com",
