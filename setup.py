@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="python-package-example-vh",
-    version="0.0.3",
+    version="0.0.4",
     author="Vinzenz Halhammer",
     author_email="info@vinzenzhalhammer.com",
     description="A minimal example how to build and publish a python package",
