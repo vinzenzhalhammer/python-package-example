@@ -1,3 +1,35 @@
 [build-system]
 requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-package-example-vh"
+version = "0.0.5"
+authors = [
+    { name = "Vinzenz Halhammer", email = "info@vinzenzhalhammer.com" }
+]
+description = "A minimal example how to build and publish a python package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/vinzenzhalhammer/python-package-example"
+
+[tool.setuptools.packages.find]
+include = ["python_package_example", "python_package_example.*"]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-cov"
+]
+
+[tool.pytest.ini_options]
+addopts = "--cov=examples --cov-report=xml --cov-report=term"
+testpaths = "tests"
+pythonpath = "."
