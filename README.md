@@ -21,15 +21,13 @@ The repository is structured in the following way
 python-package-example/
 ├── .github/
 │   └── workflows/
-│       └── publish.yml         ← GitHub Action for TestPyPI
+│       └── publish.yml
 ├── examples/                   
 │   ├── __init__.py
 │   └── util.py
 ├── tests/
 │   └── test_util.py
-├── pyproject.toml              PEP 517 build config
+├── pyproject.toml
 ├── README.md
 ├── LICENSE
-├── pytest.ini
-├── requirements.txt
 ```
