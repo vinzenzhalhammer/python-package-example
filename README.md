@@ -27,7 +27,6 @@ python-package-example/
 ├── tests/
 │   └── test_util.py
 ├── pyproject.toml              PEP 517 build config
-├── setup.py                    Package config
 ├── README.md
 ├── LICENSE
 ├── pytest.ini
