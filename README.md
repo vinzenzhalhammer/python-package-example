@@ -1,6 +1,7 @@
 # python-package-example
 
 [![codecov](https://codecov.io/gh/vinzenzhalhammer/python-package-example/graph/badge.svg?token=NTKMDKVS30)](https://codecov.io/gh/vinzenzhalhammer/python-package-example)
+[![build](https://github.com/vinzenzhalhammer/python-package-example/actions/workflows/publish.yml/badge.svg)](https://github.com/vinzenzhalhammer/python-package-example/actions/workflows/publish.yml)
 
 An example Python package that demonstrates:
 
